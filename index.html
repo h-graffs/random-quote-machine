@@ -1,9 +1,3 @@
-<!DOCTYPE HTML/>
-
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-</script>
-
-<html>
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
@@ -12,31 +6,36 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
   
-
 <body>
- <wrapper id="quote-box">
-  <div id="textauthorbox">
-   <h1 id='text'>Text</h1>    
-   <h2 id='author' class="">author</h2>    
-  </div> 
-  <br>
+  
+  <wrapper id="quote-box">
    
-  <div>
-   <button onclick ="selectRandomQuote()" id='new-quote' class="button">        
-     <a id="new-quote-text">PRESS</a>
-   </button>
-  </div>
-  <br>
+    <div id="btn-div">
+      <div>
+        <button onclick ="selectRandomQuote()" id='new-quote-btn' class="button">               <a id="new-quote-text">PRESS</a>
+        </button>
+      </div>
    
-  <div> 
-   <button id="tweet-button">    
-     <a href='twitter.com/intent/tweet' id='tweet-quote'>TWEET QUOTE</a>     
-     <i class="fa-brands fa-twitter" ></i>
-   </button>  
-  </div>
- </wrapper>
+      <div> 
+        <button id="tweet-button">    
+          <a href='twitter.com/intent/tweet' id='tweet-symbol'></a>     
+          <i class="fa-2x fa-brands fa-twitter" ></i>
+       </button>  
+      </div>
+      
+      <div id="link-to-codepen" class="link-styling">Link to Codepen: <a href="https://codepen.io/hollybomb/pen/ZErwKjG">https://codepen.io/hollybomb/pen/ZErwKjG</a></div>
+      <div id="link-to-codepen" class="link-styling">Link to Github: <a href="https://github.com/h-graffs/random-quote-machine">https://github.com/h-graffs/random-quote-machine</a></div> 
+      
+    </div>
+   
+    <div id="textauthorbox">
+      <h1 id='text'></h1>    
+      <h2 id='author' class=""></h2>    
+    </div> 
+    
+  </wrapper>
+
 </body>
-</html>
 
 
 
