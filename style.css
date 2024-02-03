@@ -1,49 +1,63 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2018/04/20/09/49/sky-3335585_1280.jpg");
+  background-size: cover;
+}
 
-#quote-box {
-  Display: block;
-  width: 50%;
-  max-width: 500px;
-  margin: 0 auto;
-  max-height: 300px;
-  min-height: 300px;
-  text-align: center;
-  content-align: center; 
-  background-color: #770022;
-  padding-top: 20px;
+#btn-div {
+  display: flex;
+  flex-direction: rows;
+}
+
+#new-quote-btn {
+  border: rgb (green, 10px);
+  border-width: 7px;
+  border-radius: 30px;
+  background-color: black;  
+  width: auto;  
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#new-quote-btn:hover {
+  border: 7px solid white;
+  cursor: pointer;
+}
+
+#tweet-button {
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  margin: 20px auto;
+  margin-left:10px;
+  width: 50px;
+  height: 50px;
+}
+
+#tweet-symbol {
+  color: white;
+  text-decoration: none;
+}
+
+#tweet-button:hover {
+  border: 5px solid white;
+  cursor: pointer;
 }
 
 #textauthorbox {
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 50%;
-  max-height: 12em;
+  width: 100%;
   min-height: 2em;
-  margin: auto auto;
-  background-color: white;
+  margin: 20rem auto;
+  max-width: 30%;
+  text-align: center;
 }
 
 #text {
-  font-size: 1.5rem;
-  color: blue;
+  font-size: 2.5rem;
 }
 
 #author {
   font-size: 1rem;
-}
-
-#new-quote {
-  border: rgb (green, 10px);
-  border-radius: 30px;
-  background-color: black;  
-  width: 4;  
-  Border-width: 7px;
-  color: white;
-  
-}
-
-#new-quote:hover {
-  border: 5px solid white;
-  cursor: pointer;
 }
 
 #new-quote-text {
@@ -51,18 +65,12 @@
  font-family: Verdana;
 }
 
-#tweet-button {
-  border-radius: 10px;
-  color: white;
-  background-color: blue;
-  margin: auto auto;
-  
+.link-styling {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
-#tweet-quote {
-  color: white;
-  text-decoration: none;
-}
 
 
 
